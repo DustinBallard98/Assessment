@@ -1,0 +1,10 @@
+C:\Users\CCA010\source\repos\Assessment_Q02\Assessment_Q02\bin\Debug\Assessment_Q02.exe.config
+C:\Users\CCA010\source\repos\Assessment_Q02\Assessment_Q02\bin\Debug\Assessment_Q02.exe
+C:\Users\CCA010\source\repos\Assessment_Q02\Assessment_Q02\bin\Debug\Assessment_Q02.pdb
+C:\Users\CCA010\source\repos\Assessment_Q02\Assessment_Q02\obj\Debug\Assessment_Q02.csprojResolveAssemblyReference.cache
+C:\Users\CCA010\source\repos\Assessment_Q02\Assessment_Q02\obj\Debug\Assessment_Q02.Form1.resources
+C:\Users\CCA010\source\repos\Assessment_Q02\Assessment_Q02\obj\Debug\Assessment_Q02.Properties.Resources.resources
+C:\Users\CCA010\source\repos\Assessment_Q02\Assessment_Q02\obj\Debug\Assessment_Q02.csproj.GenerateResource.Cache
+C:\Users\CCA010\source\repos\Assessment_Q02\Assessment_Q02\obj\Debug\Assessment_Q02.csproj.CoreCompileInputs.cache
+C:\Users\CCA010\source\repos\Assessment_Q02\Assessment_Q02\obj\Debug\Assessment_Q02.exe
+C:\Users\CCA010\source\repos\Assessment_Q02\Assessment_Q02\obj\Debug\Assessment_Q02.pdb

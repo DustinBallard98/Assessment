@@ -1,0 +1,7 @@
+C:\Users\CCA010\source\repos\Assessment_Q03\Assessment_Q03\obj\Debug\Assessment_Q03.csprojResolveAssemblyReference.cache
+C:\Users\CCA010\source\repos\Assessment_Q03\Assessment_Q03\obj\Debug\Assessment_Q03.csproj.CoreCompileInputs.cache
+C:\Users\CCA010\source\repos\Assessment_Q03\Assessment_Q03\bin\Debug\Assessment_Q03.exe.config
+C:\Users\CCA010\source\repos\Assessment_Q03\Assessment_Q03\bin\Debug\Assessment_Q03.exe
+C:\Users\CCA010\source\repos\Assessment_Q03\Assessment_Q03\bin\Debug\Assessment_Q03.pdb
+C:\Users\CCA010\source\repos\Assessment_Q03\Assessment_Q03\obj\Debug\Assessment_Q03.exe
+C:\Users\CCA010\source\repos\Assessment_Q03\Assessment_Q03\obj\Debug\Assessment_Q03.pdb

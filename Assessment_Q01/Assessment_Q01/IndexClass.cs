@@ -19,17 +19,18 @@ namespace Assessment_Q01{
             return 0;
         }//end indexof
 
+/*not necessary because strings split on newline
 
-       //public int IndexOfnewLine(string Input){
-       //    
-       //    for(int X = 1; X < Input.Length; X++){
-       //
-       //        if (Input[X] == 'n' && Input[X-1] == '\'){
-       //            return X-1;
-       //        }
-       //    }//end for   
-       //    return 0;
-       //}//end newline
+       public int IndexOfnewLine(string Input){
+           
+           for(int X = 1; X < Input.Length; X++){
+       
+               if (Input[X] == 'n' && Input[X-1] == '\'){
+                   return X-1;
+               }
+           }//end for   
+           return 0;
+       }//end newline*/
 
 
         public int [] IndexofCommentSection(string Input){

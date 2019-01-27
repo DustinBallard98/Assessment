@@ -28,9 +28,9 @@ namespace Assessment_Q04{
                 cDist = Math.Sqrt(cDist);
 
            
-            //if equal distances tangent
+            
 
-               if (SumofRadi == cDist){
+               if (SumofRadi == cDist){//if equal distances == tangent
 
                    return "The circles are tangent.";
 
@@ -40,13 +40,13 @@ namespace Assessment_Q04{
 
                }else if (SumofRadi < cDist || Circ1.Point.x == Circ2.Point.x && Circ1.Point.y == Circ2.Point.y){//determine if inside
                                                                                                                     
-                  if (Circ1.Radius != Circ2.Radius){
+                  if (Circ1.Radius != Circ2.Radius){// if radi are not the same
 
-                      if (cDist < Circ2.Radius){
+                      if (cDist < Circ2.Radius && Circ1.Radius > Circ2.Radius){//if distance between centers is greater that circ2 radius && circle 1 has larger radius
 
                           return "Circle 2 is inside Circle 1.";
 
-                      }else if (cDist < Circ1.Radius){
+                      }else if (cDist < Circ1.Radius && Circ1.Radius < Circ2.Radius){
 
                           return "Circle 1 is inside Circle 2.";
 

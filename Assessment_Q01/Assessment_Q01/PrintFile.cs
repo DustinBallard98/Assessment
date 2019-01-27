@@ -10,13 +10,11 @@ namespace Assessment_Q01{
         public static void CheckPrint(string Input){
             IndexClass IndexOf = new IndexClass();
             int Begin = 0;
-            int End = 0;
             int index = 0;;
 
             if (Input.Contains("//")){//if single comment
                 
                 Begin = IndexOf.IndexOfSlash(Input);
-                //End = IndexOf.IndexOfnewLine(Input);
                 index = Begin;
 
                 while(index < Input.Length){
@@ -46,7 +44,6 @@ namespace Assessment_Q01{
             Console.WriteLine();
 
             Begin = 0;
-            End = 0;
 
         }//end checkprint
 

@@ -12,9 +12,9 @@ namespace Assessment_Q0{
             bool Sorted = true;
             int EmptyCup;
 
-            while (Sorted){
+            while (Sorted){//until sorted
                 Sorted = false;
-                for (int X = 1; X < Int_Ary.Length; X++){
+                for (int X = 1; X < Int_Ary.Length; X++){// move through entire array
                     
                     if (Int_Ary[X] < Int_Ary[X-1]){
                         

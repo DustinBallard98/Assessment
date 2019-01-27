@@ -19,6 +19,7 @@ namespace Assessment_Q03{
 
         static void WriteFile(string [] s_Ary){
 
+        //create streamwriter and determine largest string
             StreamWriter WriteToFile = new StreamWriter("C:\\Text documents\\RectangleText.txt");
             int Largest = 0;
             string PaddedString = "";
@@ -30,18 +31,25 @@ namespace Assessment_Q03{
                 }//end if
             }//end foreach
 
+        
+        //write *'s for first line
             for(int I = 0; I < Largest + 2; I++){
 
                 WriteToFile.Write('*');
             }//end for
 
+
+        //empty line
             WriteToFile.WriteLine();
 
+        //write each string with * padding
             foreach(string X in s_Ary){
                 PaddedString = ("*" + X.PadLeft(Largest - X.Length).PadRight(Largest) + "*");
                 WriteToFile.WriteLine(PaddedString);
             }
 
+
+        //write last line
             for(int I = 0; I < Largest + 2; I++){
 
                 WriteToFile.Write('*');

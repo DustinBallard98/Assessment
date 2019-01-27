@@ -9,11 +9,12 @@ namespace Assessment_Q02{
 
         public bool CheckPal(string S1){
             string Reverse = "";
-            
+
+        //reverse string
             for(int X = S1.Length - 1; X >= 0; X--){
                 Reverse += S1[X];
             }
-
+        //check if string reversed == string initially
             if(S1 == Reverse){
                 return true;
             }//end if

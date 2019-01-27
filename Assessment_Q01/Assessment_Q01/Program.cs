@@ -11,14 +11,17 @@ namespace Assessment_Q01{
 
             StreamReader InputFile = new StreamReader("C:\\Text documents\\CheckerTextForAssess.cs");
             string [] SplitFile;
-            //while (!InputFile.EndOfStream){
 
+        //read to end
             SplitFile = InputFile.ReadToEnd().Split('\n');
 
-           // }
-
+           
             foreach(string X in SplitFile){
-                CheckPrint(X);
+
+                if(X.Contains("//") || X.Contains("/*") || X.Contains("*/")){//check for comments
+
+                    CheckPrint(X);
+                }
             }
             Console.ReadKey();
         }//end main

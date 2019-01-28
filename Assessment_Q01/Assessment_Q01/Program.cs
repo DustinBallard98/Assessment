@@ -23,6 +23,9 @@ namespace Assessment_Q01{
                     CheckPrint(X);
                 }
             }
+
+            InputFile.Close();
+
             Console.ReadKey();
         }//end main
     }//end class
